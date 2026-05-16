@@ -11721,3 +11721,18 @@ html {
     left: -2vw;
   }
 }
+
+.contact .form-control { 
+  color: #ffffff !important;
+  border: 2px solid !important;
+  border-color: var(--accent-color);
+}
+
+.contact .form-control:focus { 
+  color: #ffffff !important;
+  border-color: #0066ff !important;
+}
+
+.contact .form-control::placeholder {
+  color: #bbbbbb !important;
+}
